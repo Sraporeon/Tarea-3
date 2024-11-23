@@ -1,8 +1,13 @@
 #include <iostream>
-#include <string>
-#include <cctype> 
+#include "validar_tarjeta.cpp" 
 
 using namespace std;
+
+int main() {
+    cout << "Bienvenido al validador de tarjetas de crédito" << endl;
+    main(); // Llama al programa principal del validador
+    return 0;
+}
 
 
 bool validarTarjetaLuhn(const string& tarjeta) {
@@ -34,7 +39,7 @@ int main() {
     cout << "Ingrese el número de tarjeta de crédito: ";
     cin >> tarjeta;
 
-    
+    // Validar longitud mínima
     if (tarjeta.length() < 13 || tarjeta.length() > 19) {
         cout << "Número de tarjeta inválido (longitud incorrecta)." << endl;
         return 1;
@@ -48,3 +53,4 @@ int main() {
 
     return 0;
 }
+
