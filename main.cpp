@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     cout << "Bienvenido al validador de tarjetas de crédito" << endl;
-    main(); // Llama al programa principal del validador
+    main(); 
     return 0;
 }
 
