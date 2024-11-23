@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    cout << "Bienvenido al validador de tarjetas de crédito" << endl;
+    cout << "validador de tarjetas de crédito" << endl;
     main(); 
     return 0;
 }
